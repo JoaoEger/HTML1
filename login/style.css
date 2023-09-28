@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.esq{
+    display: inline-block;
+    background-color: rgb(211, 211, 211);
+    width: 40vw;
+    height: 100vh;
+}
+.esq h2{
+    text-align: center;
+    width: 40vw;
+    height: 30px;
+    padding-top: 160px;
+    padding-bottom: 30px;
+}
+.esq .form{
+    display: block;
+    width: 380px;
+    height: 60px; 
+    text-align: left;
+    padding-left: 7vw;
+
+}
+.esq .form{
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.esq .form #email{
+    width: 350px;
+    height: 23px;
+    margin-top: 7px;
+}
+.esq .form #senha{
+    width: 350px;
+    height: 23px;
+    margin-top: 7px;
+}
+.esq .form .esqueceu{
+    text-align: right;
+    padding-left: 193px;
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: 300;
+}
+.esq .btn{
+    display: block;
+    width: 354px;
+    height: 27px;
+    margin: 5px 0 5px 95px;
+
+}
+.esq .divisao{
+    width: 350px;
+    height: 2px;
+    background-color: rgb(107, 107, 107);
+    margin-left: 97px;
+}
+.enviar{
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: 1px;
+}
+.sair{
+    background-color: rgb(226, 226, 226);
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 5px;
+    border-color: rgb(170, 170, 170);
+    
+}
+.dir{
+    display: inline-block;
+    background-image: url("cadeado.png");
+    background-repeat: no-repeat;
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    margin-left: 20%;
+    background-position: center;
+    background-size: cover;
+    
+}

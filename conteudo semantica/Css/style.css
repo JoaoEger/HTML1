@@ -1,0 +1,109 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Fuggles&family=Roboto:ital,wght@0,100;0,300;0,700;1,100;1,300;1,700&display=swap');
+/*
+SELETORES
+SELETOR DE TAG -> DIV, SPAN, P
+SELETOR DE CLASSE -> .nomeClasse
+SELETOR DE ID -> #nomeId
+SELETOR DE EVENTOS pseudo seletores-> seletorPrincipal:hover
+SELETOR DE ATRIBUTOS div[rel] div[rel="1"] rel="100"
+
+UNIDADES DE MEDIDA NO CSS
+PIXEL -> PX
+PORCENTAGEM -> %
+PROPORCIONAL DE CONTAINER -> EM
+PROPORCIONAL DE TELA => REM
+REFERENCIAL DE VIEWPORT -> VW OU VH
+VW VIEWPORT WIDTH
+VH VIEWPORT HEIGHT
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /*background-color: rgba(18, 114, 114, 0.4);*/
+    /* 
+    tipos de cores
+    hexadecimal -> #000000
+    00 -> Red
+    00 -> Green
+    00 -> Blue
+    nome das cores
+    black, red, yellow, brown, green, blue etc...
+    
+    RGB
+    rgb(R, G, B,) 0 ate 255
+    regba(R, G, B, A) 0 ATE 1 |A é a transparencia
+    */
+
+    background:url('./taça\ linda.png');
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-position:center;
+    /* background-position: top right bottom left; */
+    background-color: blue;
+    
+    
+}
+
+.bloco{
+    width: 100px;
+    /* max-width: 30px; */
+    height: 100px;
+    background-color: red;
+    margin: 10px;
+    /* margin: 10px 10px 10px 10px;
+    /*       T    R    B    L */
+    /*margin: 10px;  aplica em todos os lados*/
+    /*margin: 10px 30px; 
+    /*       TB   LRS */
+
+    padding: 15px; 
+    /* mesma regra de quatro ladods, tem regra cruzada também
+    padding: 10px;
+    padding: 5px 10px 15px 20px
+    padding: 10px 25px
+    */
+    /* border: espessura tipo cor 
+
+    tipos
+
+    none -> n setada
+    hidden -> n é visual
+    dotted -> bordaa pontilhada
+    dashed -> borda tracejada
+    solid -> linha continua
+    double -> borda dupla
+    groove -> borda entalhada
+    reidge -> borda com ressalto
+    */
+    border: 4px solid green;
+    opacity: 1;
+}
+div h1{
+    color: yellow;
+
+} 
+.bloco p{
+    /* 
+    left, right, center, justify
+    */
+    text-align: justify;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    /*font-style: italic;
+    text-decoration: underline;*/
+    /*text-transform: uppercase;*/
+    
+}
+.bloco button{
+    padding: 4px;
+    background-color: yellow;
+    border: none;
+    border-radius: 5px;
+    opacity: 0.5;
+
+}

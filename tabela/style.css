@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.cambio{
+    width: 600px;
+    background-color: black; 
+    border-spacing: 1px;
+    filter: sepia();
+}
+.cambio td, .cambio th{
+    border: 1px solid transparent; /* #ff6600->#f60 #33ff88->#3f8*/
+    background-color: #fff;
+    padding: 4px;
+    text-align: center;
+}
+/* .cambio td.left{
+    text-align: left;
+} */
+.cambio td:first-of-type{
+    text-align: left;
+}
+.cambio th{
+    background-color: #ccc;
+}
+
+/* regra do cornão ou zebra/listrada*/
+/* odd - impar ou even - par */
+.cambio tr:nth-child(even) td{
+    background-color: bisque;
+}
